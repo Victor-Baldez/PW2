@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>IMC</title>
-  
+  <script> type="text/javascript"  src"imc.js" </script>
 </head>
 <body>
   <header>
-    <h1>Calculando IMC</h1>
+    <h1>Calculadora de IMC</h1>
   </header>
 
   <form onsubmit="return calcularIMC">
@@ -18,11 +18,3 @@
   </form>
 </body>
 </html>
-
-<script>
-function calcularIMC() {
-  var imc = document.getElementById("peso").value / (document.getElementById("altura").value * document.getElementById("altura").value)
-  
-  alert(imc)
-}
-</script>

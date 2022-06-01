@@ -1,6 +1,9 @@
 
 function calcularIMC() {
-  var imc = imc.getElementById("peso").value / (imc.getElementById("altura").value * imc.getElementById("altura").value)
-  
+  var peso = imc.getElementById("peso").value;
+  var altura = imc.getElementById("altura").value;
+
+var imc = peso / altura ** 2;
+
   alert(imc)
 }
