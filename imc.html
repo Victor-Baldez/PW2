@@ -17,10 +17,12 @@
     <button>Calcular</button>
   </form>
 </body>
+</html>
+
 <script>
 function calcularIMC() {
-  var imc = imc.getElementById("peso").value / (imc.getElementById("altura").value * imc.getElementById("altura").value)
+  var imc = document.getElementById("peso").value / (document.getElementById("altura").value * document.getElementById("altura").value)
   
   alert(imc)
-}</script>
-</html>
+}
+</script>
