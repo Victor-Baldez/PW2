@@ -3,6 +3,7 @@ function calcularIMC() {
   var altura = document.getElementById("altura").value;
 
   var imc = peso / altura ** 2;
+  var imcArredondado = parseFloat(imc.toFixed(2))
 
-  alert("O seu IMC é ", imc)
+  alert("O seu IMC é " + imcArredondado)
 }
