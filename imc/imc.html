@@ -1,0 +1,28 @@
+<DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>IMC</title>
+  <script type="text/javascript" src="imc.js"></script>
+</head>
+<body>
+  <header align="center">
+    <h1>Calculadora de IMC</h1>
+    <a href="index.html">voltar</a>
+  </header>
+  <hr>
+  <p align="justify">Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Ele aponta se o peso está adequado ou se está abaixo ou acima do peso.
+  O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+
+  <form align="center" onsubmit="return calcularIMC()">
+    <dl>
+    <dt><input type="float" id="peso" placeholder="Peso">
+    <p></p></dt>
+    <dt><input type="float" id="altura" placeholder="Altura"></dt>
+    </dl>
+    <button>Calcular</button>
+  </form>
+  <hr>
+  <p><b>Desenvolvido por: </b>Victor Hugo, Amanda e Davi José </p>
+</body>
+</html>
