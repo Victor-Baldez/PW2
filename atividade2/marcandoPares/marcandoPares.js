@@ -7,9 +7,9 @@ function contar() {
       saida.innerHTML += "<strong>"+cont+"</strong>&#x1F449;"
     }
     else {
-      saida.innerHTML += cont+"&#x1F449;"
+      saida.innerHTML += cont+" &#x1F449; "
     }
     cont ++
   }
-  saida.innerHTML += "&#x1F3C1;"
+  saida.innerHTML += " &#x1F3C1;"
 }
