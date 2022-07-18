@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title >Dias da Semana</title>
-  </head>
+  </head> 
   <body>
     <header>
       <h1 align="center">Avançando Dias da Semana</h1>
@@ -21,18 +21,13 @@
         <dd>2 = Terça-Feira</dd>
         <dd>3 = Quarta-Feira</dd>
         <dd>4 = Quinta-Feira</dd>
-        <dd>4 = Sexta-Feira</dd>
+        <dd>5 = Sexta-Feira</dd>
         <dd>6 = Sábado</dd>
     </dl>
-    
-    <form align="center" onsubmit="return avancarDias()">
-      <dl>
-      <dt><input type="int" id="dias" placeholder="Dias">
-      <p></p></dt>
-      <dt><input type="int" id="quantidade" placeholder="Quantidade"></dt>
-      </dl>
-      <button>Avançar</button>
-    </form>
+    <div align="center">
+      <button onclick="return avancarDias()">Avançar</button>
+    </div>
+    <script src="diasSemana.js"></script>
       <hr>
     <p><b>Desenvolvido por: </b>Victor Hugo, Amanda e Davi José </p>
   </body>
